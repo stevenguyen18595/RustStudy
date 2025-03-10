@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Rust (MSVC)",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/hello_cargo/target/debug/hello_cargo.exe", // change this path to point to your project executable
+      "args": [],
+      "cwd": "${workspaceFolder}/hello_cargo",
+      "stopAtEntry": false,
+      "externalConsole": false
+    }
+  ]
+}
